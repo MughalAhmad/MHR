@@ -1,0 +1,434 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.job-type-main-admin {
+  width: 70vw;
+  height: 100vh auto;
+  display: grid;
+  grid-template-rows: 0px 1fr;
+  grid-template-columns: 1fr;
+  font-size: 62.5%;
+  background:#e6f4e1;
+  margin: auto;
+  border: .2rem solid #9bcc8b;
+  border-radius: 1rem;
+}
+.admin-job-type-body {
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+.admin-job-search-div {
+  width: auto;
+  height: 10vh;
+  /* background: hotpink; */
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  margin-right: 5rem;
+}
+.admin-input {
+  font-size: 1rem;
+  padding-left: 1rem;
+  width: 40rem;
+  height: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.7rem;
+}
+.admin-job-search-div button {
+  border: 0rem;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  border-radius: 0.7rem;
+  background: #0077c7;
+  color :white;
+}
+.admin-job-add-btn button {
+  border: 0rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  background: #0077c7;
+  color :white;
+}
+.admin-job-table{
+  width:100%;
+  border-collapse:separate;
+  table-layout: auto;
+  margin-bottom: 5rem;
+}
+.admin-job-table,.admin-job-table td,.admin-job-table th{
+text-align:center;
+border: .1rem solid black;
+border-color: #9bcc8b;
+}
+.admin-job-table th{
+color: #9bcc8b;
+}
+.admin-job-table td,.admin-job-table th{
+vertical-align: top;
+padding: 1rem;
+font-size: 1rem;
+}
+/* After Displsy None  */
+.admin-job-body-dialogbox {
+  background: #9bcc8b;
+  width: 35rem;
+  height: 16rem;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  border-radius: 2rem;
+}
+.admin-job-body-dialogbox div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: pink; */
+}
+.admin-job-body-dialogbox div p{
+  font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+.admin-job-body-dialogbox div input{
+  width: 25rem;
+  height: 3rem;
+  margin-bottom: 0.9rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  background:#e6f4e1;;
+  border:.1rem solid;
+  outline: none;
+  border-radius: .5rem;
+padding-left: 1rem;
+margin-right: 1rem;
+text-transform: capitalize;
+}
+
+.admin-job-body-dialogbox :nth-child(3) {
+  width: 5rem;
+  height: 2rem;
+  border: 0rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background: #0077c7;
+  color :white;
+  padding-top: .2rem;
+}
+.admin-job-body-dialogbox :nth-child(4) {
+  width: 5rem;
+  height: 2rem;
+  border: 0rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  background: #0077c7;
+  color :white;
+  padding-top: .2rem;
+}
+@media (max-width:750px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 5rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 35rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}
+@media (max-width:650px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 3rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 30rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}
+@media (max-width:560px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 1.5rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 25rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}
+@media (max-width:530px) {
+  .admin-job-body-dialogbox {
+    background: #9bcc8b;
+    width: 30rem;
+    height: 16rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+ 
+  .admin-job-body-dialogbox div input{
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;;
+    border:.1rem solid;
+    outline: none;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  }
+}
+@media (max-width:470px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: .5rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 20rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}
+@media (max-width:530px) {
+  .admin-job-body-dialogbox {
+    background: #9bcc8b;
+    width: 25rem;
+    height: 16rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  .admin-job-body-dialogbox div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+  }
+  .admin-job-body-dialogbox div p{
+    font-size: 1.2rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+  }
+  .admin-job-body-dialogbox div input{
+    width: 17rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;;
+    border:.1rem solid;
+    outline: none;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  }
+  
+  .admin-job-body-dialogbox :nth-child(3) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  .admin-job-body-dialogbox :nth-child(4) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+}
+@media (max-width:375px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 0rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 17rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+  .admin-job-body-dialogbox {
+    background: #9bcc8b;
+    width: 20rem;
+    height: 16rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  .admin-job-body-dialogbox div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+  }
+  .admin-job-body-dialogbox div p{
+    font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+  }
+  .admin-job-body-dialogbox div input{
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;;
+    border:.1rem solid;
+    outline: none;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  }
+  
+  .admin-job-body-dialogbox :nth-child(3) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  .admin-job-body-dialogbox :nth-child(4) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+}
+@media (max-width:340px) {
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 0rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 15rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}
+@media (max-width:320px) {
+  .job-type-main-admin {
+    width: 80vw;
+    height: 100vh auto;
+    display: grid;
+    grid-template-rows: 0px 1fr;
+    grid-template-columns: 1fr;
+    font-size: 62.5%;
+    background:#e6f4e1;
+    margin: auto;
+    border: .2rem solid #9bcc8b;
+    border-radius: 1rem;
+  }
+  .admin-job-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 0rem;
+    margin-right: 0rem;
+  }
+  .admin-input {
+    font-size: 1rem;
+    padding-left: 1rem;
+    width: 13rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+}

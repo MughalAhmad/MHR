@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .all-location-type-main-admin {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr;
+    font-size: 62.5%;
+    background:#e6f4e1;
+  }
+  .all-admin-location-type-body {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+  }
+  .all-admin-location-search-div {
+    width: auto;
+    height: 10vh;
+    /* background: hotpink; */
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    margin-right: 5rem;
+  }
+  .all-admin-location-input {
+    width: 40rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+  }
+  
+  .all-admin-location-add-btn button {
+    border: 0rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    background: #0077c7;
+    color :white;
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+  .all-adm1-location-add-btn{
+    width: 20rem;
+    height: 3rem;
+    /* background: #62d83b; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* padding-top: .4rem; */
+        margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: .2rem solid #9bcc8b;
+  border-radius: .5rem;
+  }
+    .all-adm1-location-add-btn p{
+      width: 50%;
+      height: 100%;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #0077c7;
+  
+    }
+    .all-horizantal-adm1-location-add-btn{
+      width: .2rem;
+      height: 2.6rem;
+      /* margin-top: -.4rem; */
+      background-color: #9bcc8b;
+    }
+    /* .contaner-map-side{
+      width: 100vw;
+      height: 80vh;
+      background-color: red;
+    } */
+  .all-admin-location-table{
+    width:100%;
+    /* height: 100%; */
+    border-collapse:separate;
+    table-layout: auto;
+  }
+  .all-admin-location-table,.all-admin-location-table td,.all-admin-location-table th{
+  text-align:center;
+  border: .1rem solid #9bcc8b;
+  border-color: #9bcc8b;
+  }
+  .all-admin-location-table{
+  width: 100%;
+  }
+  .all-admin-location-table th{
+  color: #9bcc8b;
+  }
+  .all-admin-location-table td,.all-admin-location-table th{
+  vertical-align:top;
+  padding: 1rem;
+  font-size: 1rem;
+  }
+  /* After Displsy None  */
+  .all-admin-location-body-dialogbox {
+    background: #9bcc8b;
+    width: 35rem;
+    height: 28rem;
+    margin: auto;
+    margin-top: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  .all-admin-location-body-dialogbox div{
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .all-admin-location-body-dialogbox div p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  }
+  
+  .all-admin-location-body-dialogbox div input{
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;
+    border:.1rem solid;
+    outline: none;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  }
+  
+  .all-admin-location-body-dialogbox :nth-child(5) {
+     width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  .all-admin-location-body-dialogbox :nth-child(6) {
+     width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* After Displsy None update */
+  /* .location-update-dialogbox {
+    background: #9bcc8b;
+    width: 27rem;
+    height: 22rem;
+    margin: auto;
+    margin-top: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  .location-update-dialogbox input {
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;;
+    border:.1rem solid;
+  }
+  
+  .location-update-dialogbox :nth-child(4) {
+    width: 6rem;
+    height: 4rem;
+    border: 0rem;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    margin-left: 6rem;
+    background: #0077c7;
+    color :white;
+  }
+  .location-update-dialogbox :nth-child(5) {
+    width: 6rem;
+    height: 4rem;
+    border: 0rem;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+  } */
+  .google-map {
+    width: 100%;
+    height: 95vh;
+  }
+  
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    height: 18rem;
+    color: var(--main-blue);
+    background-color: rgb(233, 233, 233,50%);
+    border-radius: 2rem;
+  }
+  
+  .pin-icon {
+    font-size: 6rem;
+  }
+  
+  .pin-text {
+    font-size: 1.3em;
+  }
+  

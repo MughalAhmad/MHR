@@ -1,0 +1,168 @@
+.subadmin-update-job{
+  height: 100vh;
+  background-color: #e6f4e1;
+
+}
+.subadmin-job-update-dialogbox {
+    background: #9bcc8b;
+    width: 35rem;
+    height: 16rem;
+    margin: auto;
+    margin-top: 10rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  
+.subadmin-job-update-dialogbox div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subadmin-job-update-dialogbox div p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.subadmin-job-update-dialogbox div input{
+  width: 25rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background:#e6f4e1;;
+    border:.1rem solid;
+    outline: none;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+  text-transform: capitalize;
+  }
+  
+  .subadmin-job-update-dialogbox :nth-child(3) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  .subadmin-job-update-dialogbox :nth-child(4) {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+  @media (max-width:370px) {
+    .subadmin-job-update-dialogbox {
+      background: #9bcc8b;
+      width: 30rem;
+      height: 14rem;
+      margin: auto;
+      margin-top: 10rem;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      border-radius: 2rem;
+    }
+  .subadmin-job-update-dialogbox div input{
+    width: 22rem;
+      height: 3rem;
+      margin-bottom: 0.9rem;
+      font-size: 1rem;
+      margin-top: 2rem;
+      background:#e6f4e1;;
+      border:.1rem solid;
+      outline: none;
+      border-radius: .5rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    text-transform: capitalize;
+    }
+    
+    .subadmin-job-update-dialogbox :nth-child(3) {
+      width: 5rem;
+      height: 2rem;
+      border: 0rem;
+      border-radius: 0.2rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      background: #0077c7;
+      color :white;
+      padding-top: .2rem;
+    }
+    .subadmin-job-update-dialogbox :nth-child(4) {
+      width: 5rem;
+      height: 2rem;
+      border: 0rem;
+      border-radius: 0.2rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      background: #0077c7;
+      color :white;
+      padding-top: .2rem;
+    }
+  }
+  @media (max-width:310px) {
+    .subadmin-job-update-dialogbox {
+      background: #9bcc8b;
+      width: 25rem;
+      height: 13rem;
+      margin: auto;
+      margin-top: 10rem;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      border-radius: 2rem;
+    }
+  .subadmin-job-update-dialogbox div input{
+    width: 17rem;
+      height: 3rem;
+      margin-bottom: 0.9rem;
+      font-size: 1rem;
+      margin-top: 2rem;
+      background:#e6f4e1;;
+      border:.1rem solid;
+      outline: none;
+      border-radius: .5rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    text-transform: capitalize;
+    }
+    
+    .subadmin-job-update-dialogbox :nth-child(3) {
+      width: 5rem;
+      height: 2rem;
+      border: 0rem;
+      border-radius: 0.2rem;
+      font-size: 1rem;
+      margin-top: .5rem;
+      margin-left: 1rem;
+      background: #0077c7;
+      color :white;
+      padding-top: .2rem;
+    }
+    .subadmin-job-update-dialogbox :nth-child(4) {
+      width: 5rem;
+      height: 2rem;
+      border: 0rem;
+      border-radius: 0.2rem;
+      font-size: 1rem;
+      margin-top: .5rem;
+      margin-left: 1rem;
+      background: #0077c7;
+      color :white;
+      padding-top: .2rem;
+    }
+  }
+  

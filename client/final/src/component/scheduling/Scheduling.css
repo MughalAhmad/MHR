@@ -1,0 +1,477 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* .schedul-main{
+    
+  } */
+  .subadmin-wapper {
+    max-width: 100%;
+    min-width: 70rem ;
+    height: 100vh ;
+    /* border: 1px solid; */
+    font-size: 62.5%;
+    margin: auto;
+    position: relative;
+    /* background-color: rgb(62, 205, 62); */
+  }
+  .subadmin-CalenderHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.4rem;
+    color: #0077c7;
+    max-width: 100%;
+    min-width: 70rem;
+    /* background-color: #940929; */
+  }
+  .subadmin-CalenderHeader p{
+    margin-top: 1rem;
+  }
+  .subadmin-CalenderHeader :nth-child(1){
+    color:black ;
+    margin-left: 9rem;
+  }
+  .subadmin-CalenderHeader :nth-child(3){
+    color:black ;
+    margin-right: 9rem;
+  }
+  .userData5{
+    width: 100%;
+  }
+  .subadmin-SevenColGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 2.7rem;
+    /* background-color: aqua; */
+    
+  }
+  .subadmin-HeadDay {
+    text-align: center;
+    background: #9bcc8b;
+    font-size: 2rem;
+    margin-top: -.2rem;
+    color: #0077c7;
+    max-width: auto;
+    min-width:10rem ;
+  }
+  .subadmin-CalenderBody{
+      height:calc(100% - 2.7rem - 4rem);
+      display: grid;
+/* background-color: #940929; */
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .subadmin-StyledDay{
+      border: 1px solid;
+    text-align: right;
+    padding: .5rem;
+    font-size: 1rem;
+    max-width: auto;
+    min-width:10rem ;
+    /* background-color: aquamarine; */
+    
+  }
+  .subadmin-setEvent{
+    background-color: #d0d5d0;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    word-break:break-all;
+
+  }
+  .subadmin-setEvent:hover{
+    color: #940929;
+  }
+
+/*   
+  .portalWapper{
+  background: white;
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  border-radius: 1rem;
+  transform: translate(-50%,-50%);
+  box-shadow: 1rem 1rem 2rem black;
+  padding: 4rem;
+  }
+  .portalWapper h2{
+    font-size:2rem ;
+  }
+  .portalWapper ion-icon{
+    font-size:2rem ;
+    background: lightblue;
+    color: red;
+    width: 3rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+  } */
+  .schedule-box{
+    background-color:#9bcc8b;
+    color:black;
+     text-align:center;
+      border-radius:1rem;
+       margin-bottom:.5rem;
+        width:90%;
+
+         font-size:1.3rem;
+         
+  }
+
+
+
+  
+  .subadmin-deleteUpdate{
+    background-color: #9bcc8b;
+    position: absolute;
+    width: 50rem;
+    height: 45rem;
+    top: 40rem;
+    left: 50%;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    transform: translate(-50%,-50%);
+    box-shadow: 1rem 1rem 2rem black;
+    padding: 4rem;
+  }
+.subadmin-deleteUpdate h1{
+  color: #0077c7;
+}
+.subadmin-deleteUpdate_select div{
+  display: flex;
+  justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+}
+.subadmin-deleteUpdate_select div p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+  .subadmin-deleteUpdate_select div select{
+    width:30rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div input{
+    width:30rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div textarea{
+    width:30rem;
+  min-height: 3rem;
+max-height: 5rem;
+outline: none;
+   text-transform: capitalize;
+     font-size:1.2rem;
+
+  }
+
+  .subadmin-deleteUpdate button {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ @media (max-width:680px) {
+  .userData5{
+overflow: auto; 
+ }
+ }
+ @media (max-width:520px) {
+
+  .subadmin-deleteUpdate{
+    background-color: #9bcc8b;
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    top: 40rem;
+    left: 50%;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    /* transform: translate(-50%,-50%); */
+    box-shadow: 1rem 1rem 2rem black;
+    padding: 2rem;
+  }
+
+.subadmin-deleteUpdate_select div{
+  display: flex;
+  justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+}
+.subadmin-deleteUpdate_select div p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+  .subadmin-deleteUpdate_select div select{
+    width:25rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div input{
+    width:25rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div textarea{
+    width:25rem;
+  min-height: 3rem;
+max-height: 5rem;
+outline: none;
+   text-transform: capitalize;
+     font-size:1.2rem;
+
+  }
+
+  .subadmin-deleteUpdate button {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ }
+ @media (max-width:420px) {
+
+  .subadmin-deleteUpdate{
+    background-color: #9bcc8b;
+    position: absolute;
+    width: 35rem;
+    height: 40rem;
+    top: 40rem;
+    left: 50%;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    /* transform: translate(-50%,-50%); */
+    box-shadow: 1rem 1rem 2rem black;
+    padding: 2rem;
+  }
+
+.subadmin-deleteUpdate_select div{
+  display: flex;
+  justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+}
+.subadmin-deleteUpdate_select div p{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+  .subadmin-deleteUpdate_select div select{
+    width:23rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div input{
+    width:23rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div textarea{
+    width:23rem;
+  min-height: 3rem;
+max-height: 5rem;
+outline: none;
+   text-transform: capitalize;
+     font-size:1.2rem;
+
+  }
+
+  .subadmin-deleteUpdate button {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ }
+ @media (max-width:360px) {
+
+  .subadmin-deleteUpdate{
+    background-color: #9bcc8b;
+    position: absolute;
+    width: 30rem;
+    height: 40rem;
+    top: 40rem;
+    left: 50%;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    /* transform: translate(-50%,-50%); */
+    box-shadow: 1rem 1rem 2rem black;
+    padding: 2rem;
+  }
+
+.subadmin-deleteUpdate_select div{
+  display: flex;
+  justify-content: space-between;
+    padding-right: .5rem;
+    align-items: center;
+}
+.subadmin-deleteUpdate_select div p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+  .subadmin-deleteUpdate_select div select{
+    width:20rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div input{
+    width:20rem;
+     height:3rem;
+     font-size:2rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div textarea{
+    width:20rem;
+  min-height: 3rem;
+max-height: 5rem;
+outline: none;
+   text-transform: capitalize;
+     font-size:1.2rem;
+
+  }
+
+  .subadmin-deleteUpdate button {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ }
+ @media (max-width:310px) {
+
+  .subadmin-deleteUpdate{
+    background-color: #9bcc8b;
+    position: absolute;
+    width: 27rem;
+    height: 50rem;
+    top: 40rem;
+    left: 50%;
+    /* border: 1px solid; */
+    border-radius: 1rem;
+    /* transform: translate(-50%,-50%); */
+    box-shadow: 1rem 1rem 2rem black;
+    padding: 2rem;
+    line-height: .8rem;
+  }
+
+.subadmin-deleteUpdate_select div{
+  display: flex;
+  flex-direction: column;
+    padding-right: .1rem;
+    align-items: start;
+}
+.subadmin-deleteUpdate_select div p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+  .subadmin-deleteUpdate_select div select{
+    width:22rem;
+     height:2.5rem;
+     font-size:1rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div input{
+    width:22rem;
+    height:2.5rem;
+    font-size:1rem;
+   margin-bottom: .5rem;
+   outline: none;
+   text-transform: capitalize;
+
+  }
+  .subadmin-deleteUpdate_select div textarea{
+    width:22rem;
+  min-height: 3rem;
+max-height: 5rem;
+outline: none;
+   text-transform: capitalize;
+     font-size:1rem;
+
+  }
+
+  .subadmin-deleteUpdate button {
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ }
+ 
+ 
+
+

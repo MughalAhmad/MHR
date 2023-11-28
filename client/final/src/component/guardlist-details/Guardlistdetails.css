@@ -1,0 +1,180 @@
+.subadmin-guard-update-dialogbox{
+    /* background: rgb(227, 236, 227); */
+    width: 35rem;
+    height: 44rem;
+    margin: auto;
+    margin-top: 1rem;
+   padding-left: 1rem;
+   padding-top: 2rem;
+   border-radius: 2rem;
+   background-color: #9bcc8b;
+  }
+  .subadmin-guard-update-dialogbox div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    align-items: center;
+  }
+  .subadmin-guard-update-dialogbox div p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* text-align: center; */
+  }
+  .subadmin-guard-update-dialogbox input{
+    width: 23rem;
+    height: 3rem;
+    margin-bottom: .6rem;
+    font-size: 1rem;
+    border: .1rem solid grey;
+    background:#e6f4e1;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  outline: none;
+  /* text-transform: capitalize; */
+  }
+  
+  .subadmin-guard-update-dialogbox :nth-child(11){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+
+  .subadmin-guard-update-dialogbox :nth-child(12){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ 
+@media (max-width:380px) {
+  .subadmin-guard-update-dialogbox{
+    /* background: rgb(227, 236, 227); */
+    width: 30rem;
+    height: 44rem;
+    margin: auto;
+    margin-top: 8rem;
+   padding-left: 1rem;
+   padding-top: 2rem;
+   border-radius: 2rem;
+   background-color: #9bcc8b;
+  }
+  
+  .subadmin-guard-update-dialogbox input{
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: .6rem;
+    font-size: 1rem;
+    border: .1rem solid grey;
+    background:#e6f4e1;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  outline: none;
+  /* text-transform: capitalize; */
+  }
+  
+  .subadmin-guard-update-dialogbox :nth-child(11){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+
+  .subadmin-guard-update-dialogbox :nth-child(12){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ 
+}
+@media (max-width:310px) {
+  .subadmin-guard-update-dialogbox{
+    /* background: rgb(227, 236, 227); */
+    width: 25rem;
+    height: 44rem;
+    margin: auto;
+    margin-top: 8rem;
+   padding-left: 1rem;
+   padding-top: 2rem;
+   border-radius: 2rem;
+   background-color: #9bcc8b;
+  }
+  .subadmin-guard-update-dialogbox div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: .5rem;
+    align-items: center;
+  }
+  .subadmin-guard-update-dialogbox div p{
+    font-size: 1rem;
+    font-weight: 600;
+    /* text-align: center; */
+  }
+  .subadmin-guard-update-dialogbox input{
+    width: 17rem;
+    height: 3rem;
+    margin-bottom: .6rem;
+    font-size: 1rem;
+    border: .1rem solid grey;
+    background:#e6f4e1;
+    border-radius: .5rem;
+  padding-left: 1rem;
+  outline: none;
+  /* text-transform: capitalize; */
+  }
+  
+  .subadmin-guard-update-dialogbox :nth-child(11){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+  }
+
+  .subadmin-guard-update-dialogbox :nth-child(12){
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background: #0077c7;
+    color :white;
+    padding-top: .2rem;
+
+  }
+ 
+}

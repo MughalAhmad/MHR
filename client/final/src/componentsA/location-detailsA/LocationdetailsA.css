@@ -1,0 +1,73 @@
+.admin-update-loaction-dialogbox {
+    height: 100vh;
+    background-color: #e6f4e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  /* After Displsy None update */
+  .admin-update-loaction-dialogbox-main {
+    background-color: #9bcc8b;
+    width: 35rem;
+    height: 27rem;
+    margin: auto;
+    /* margin-top: 10rem; */
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
+  }
+  
+  .admin-update-loaction-dialogbox-main div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .admin-update-loaction-dialogbox-main div p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+  }
+  
+  .admin-update-loaction-dialogbox-main div input {
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background: #e6f4e1;
+    ;
+    border: .1rem solid;
+    outline: none;
+    border-radius: .5rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .admin-location-update-dialogbox-btn1{
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    /* margin-top: 1rem; */
+    margin-left: 1rem;
+    background: #0077c7;
+    color: white;
+    /* padding-top: .2rem; */
+  }
+  
+  .admin-location-update-dialogbox-btn2{
+    width: 5rem;
+    height: 2rem;
+    border: 0rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    /* margin-top: 2rem; */
+    margin-left: 1rem;
+    background: #0077c7;
+    color: white;
+    /* padding-top: .2rem; */
+  }
